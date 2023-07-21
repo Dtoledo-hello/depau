@@ -1,0 +1,418 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   body{
+	   font-size:15px;
+	   font-family: 'neue-haas-grotesk-display';
+	   color:#8f8f8f;
+   }
+   .light-bg{
+	   background:#d9d9d9;
+   }
+   .fossil-bg{
+	   background:#8c8689;
+   }
+    button i{
+		font-size:25px;
+		padding-left:15px;
+		padding-top:15px;
+	}
+	
+   .wrap{
+	   padding:120px 0;
+	}
+    .wrap2{
+	   padding:60px 0;
+	}
+   
+   h1,h2,h3,h4,h5{padding:0;margin:0;}
+   
+   a,a:hover{
+	 text-decoration:none;
+	}
+	.btn-default {
+    color: #333;
+    background-color:transparent;
+    border-color:transparent;
+    padding:5px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+	background-image:none;
+	box-shadow:none;
+	border:1px solid #000;
+	font-family: 'neue-haas-grotesk-display';
+	font-weight:600;
+	margin-top:20px;
+}
+	.btn-default:hover {
+		background:transparent;
+		color:#8c878a;
+        
+	}
+/*==========================================
+PRE LOADER 
+==========================================*/
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fefefe;
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+    overflow: hidden !important;
+}
+
+.loaded {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(../img/loading.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    background-size: cover;
+    margin: -20px 0 0 -20px;
+}
+
+
+   .header_area{
+       min-height:600px;
+       background:url(../img/header_bg2.jpg)no-repeat scroll center center;
+       background-size:cover;
+       background-attachment: fixed;
+    }
+
+   .main_header
+   {
+	   text-align:center;
+	   margin-top: 100px;
+	   color:#fff;
+	}
+
+	.main_header h2
+	{
+		font-size:60px;
+		font-family:'neue-haas-grotesk-display';
+        font-style: italic;
+
+	}
+	.main_header h3
+	{
+		font-size: 45px;
+		letter-spacing: 18px;
+		font-family: 'neue-haas-grotesk-display', sans-serif;
+		text-transform: uppercase;
+        padding-top: 80px;
+	}
+	.main_header p
+	{
+		font-size:18px;
+		font-family: 'neue-haas-grotesk-display';
+		letter-spacing:1px;
+	}
+    .main_header img 
+    {
+		width: 380px;
+        height: auto;
+	}
+	
+	.homepage a i{
+	color: #fff;
+    font-size: 35px;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 115px;
+	transition:.3s ease-in-out;
+        padding-bottom: 60px;
+	}
+	.homepage a i:hover{
+	color:#8c8689;
+	}
+	
+	.btn-transparent{
+	background:transparent;
+	border-radius:20px;
+	color:#fff;
+	padding:10px 30px;
+	margin-top:10px;
+	font-family: 'neue-haas-grotesk-display';
+	font-size:18px;
+	transition:.3s ease-in-out;
+	border-color: #fff;
+	}
+	.btn-transparent:hover{
+	background: #fff;
+	color:#000;
+	}
+
+	.img_right{
+		margin-left: 256px;
+	}
+	
+	.info{
+		padding:50px 0 50px 50px;
+	}
+	.info h2{
+		font-family:'neue-haas-grotesk-display';
+		font-size:30px;
+        font-style: italic;
+	}
+	.info h3{
+		padding:10px 0;
+		font-family: 'neue-haas-grotesk-display';
+		font-size:30px;
+	}
+	.details{
+        width: 50%;
+		padding:5px;
+		font-size:18px;
+		color:#969696;
+	}
+	 button i{
+		font-size:25px;
+		padding-left:15px;
+		padding-top:15px;
+	}
+	.info-img{
+		width: 359px;
+		position: relative;
+		text-align: right;
+		z-index: 2;
+	}
+	.info-img img{margin-top: -58px;}
+	.info-img:after{
+		border: 3px solid #cccccc;
+		content: "";
+		width: 334px;
+		height: 476px;
+		left: 0;
+		top: 0;
+		display: block;
+		position: absolute;
+		z-index: -1;
+		margin-left: -80px;
+	}
+	
+	.curstab_studio{
+		min-height:300px;
+		background:url(../img/keyboard2.jpg)no-repeat scroll center center;
+		background-size:cover;
+		margin: 0;
+        background-attachment: fixed;
+	}
+	.studio {
+		text-align:center;
+		color:#fff;
+		font-size:14px;
+        width: 80%;
+        margin: auto;
+		
+	}
+	
+	.item{
+		padding:60px 0;
+	}
+	.item p{
+		max-width:920px;
+		margin:0 auto;
+		padding-bottom:40px;
+		font-size:15px;
+	}
+	.item h4{
+		font-size:25px;
+	}
+	.item span{
+		font-size:15px;
+	}
+	
+	.carousel-indicators .active {
+    width: 25px;
+    height: 7px;
+    margin: 0;
+    background-color: #fff;
+	margin-bottom: 1px;
+	}
+	
+	.carousel-indicators li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+	}
+	
+	.contact_area{
+		margin:100px 0 50px 0;
+		padding:10px;
+	}
+	
+	
+	.main_contact h1{
+		font-family: 'neue-haas-grotesk-display';
+		margin-bottom: 15px;
+		color:#000;
+	}
+
+	.main_contact p{
+		font-family: 'neue-haas-grotesk-display', sans-serif;
+		color:#969696;
+	}
+	
+	
+	.footer-main{
+		border-top:1px solid #cccccc;
+		padding:40px 0px;
+	}
+	.all_rights p{
+		font-family: 'neue-haas-grotesk-display', sans-serif;
+		color:#969696;	
+	}
+    .all_rights a{
+		font-family: 'neue-haas-grotesk-display', sans-serif;
+		color:#000;	
+	}
+	
+	.social a{
+		color:#333;
+		font-size:20px;
+		margin-right:15px;
+		transition:.3s ease-in-out;
+		-webkit-transition:.3s ease-in-out;
+		-moz-transition:.3s ease-in-out;
+	}
+	.social a:hover{
+		color:#8c878a;
+	}
+	
+	.main_contact{
+		padding:0 20px 0 0;
+	}
+	
+	.main_contact2{
+		padding-left:15px;
+        
+	}
+	
+	.main_contact2 input{
+		border:none;
+		border-bottom:1px solid #969696;
+		box-shadow:none;
+		border-radius:0px;
+	}
+	.main_contact2 textarea{
+		margin-top:30px;
+		border:none;
+		border-bottom:1px solid #969696;
+		box-shadow:none;
+		border-radius:0px;
+		
+	}
+	.main_contact2 button{
+		margin-top:30px;
+        height: 45px;
+	}
+    .main_contact2 i{
+
+        vertical-align: middle;
+        margin: 0 0 0 0;
+        padding: 0 0 0 10px;
+
+        
+	}
+	
+
+    .portfolio .portfolio-item {
+        margin: 10px 0;
+    }
+	.portfolio .portfolio-item  h2{
+        color:#000;
+		font-family: 'neue-haas-grotesk-display';
+    }
+
+    .bold-negro{
+        color:#000;
+		font-size: 3.5em !important;
+    }
+
+    .lnr:hover{
+        color: #8c878a !important;
+    }
+    .cta h3{
+        color: #fff;
+        font-size: 2.3em;
+        font-family: 'neue-haas-grotesk-display';
+    }
+    .cta p{
+        color: #fff;
+        font-size: 1.3em;
+    }
+    .btn-solid{
+	    background:#fff;
+	    border-radius:20px;
+	    color:#8c878a;
+	    padding:10px 60px;
+	    margin-top:10px;
+	    font-family: 'neue-haas-grotesk-display';
+	    font-size:24px;
+	    transition:.3s ease-in-out;
+	    border-color: #fff;
+        font-weight: 100;
+	}
+	.btn-solid:hover{
+	background: transparent;
+	color:#fff;
+	}
+
+.contactos i{
+    font-size: 5em;
+    padding-bottom: 15px;
+    color: #545457;
+}
+.contactos h2{
+    padding-bottom: 75px;
+}
+.contactos span{
+    font-size: 15px;
+}
+.contactos a{
+    color: #8c8689;
+    list-style: none;
+}
+.contactos a:hover{
+    color: #545457;
+}
+.title1{
+    padding: 80px 0 0 0;
+    margin-bottom: -70px;
+}
+
+.logo-cierre img{
+    width: 45%;
+}
+.logo-cierre{
+    padding-top: 60px;
+    margin: auto;
+    text-align: center
+}
+
+
+
+
+
+
+
+
+
+
+
